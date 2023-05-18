@@ -6,12 +6,6 @@
 
 ![image](/packages/react-app/public/walletchat.png)
 
----
-
-🎖 Scaffold-ETH 2 is the latest version of this developer experience, we recommend you fork: https://github.com/scaffold-eth/se-2
-
----
-
 # 🏄‍♂️ Quick Start
 
 Prerequisites: [Node (v18 LTS)](https://nodejs.org/en/download/) plus [Yarn (v1.x)](https://classic.yarnpkg.com/en/docs/install/) and [Git](https://git-scm.com/downloads)
