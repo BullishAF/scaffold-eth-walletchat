@@ -5,7 +5,7 @@
  
  🧪 Quickly experiment with WalletChat:
 
-![image](https://user-images.githubusercontent.com/2653167/124158108-c14ca380-da56-11eb-967e-69cde37ca8eb.png)
+![image](/react-app/public/walletchat.png)
 
 ---
 
