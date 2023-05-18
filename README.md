@@ -1,7 +1,6 @@
-# 🏗 Scaffold-ETH-WalletChat
+# 🗣 Scaffold-ETH-WalletChat
 
 > Forkable Ethereum dev stack integrated with [WalletChat](https://walletchat.fun)
- 🗣
  
  🧪 Quickly experiment with WalletChat:
 
