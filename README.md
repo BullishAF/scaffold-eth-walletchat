@@ -5,7 +5,7 @@
  
  🧪 Quickly experiment with WalletChat:
 
-![image](/react-app/public/walletchat.png)
+![image](/packages/react-app/public/walletchat.png)
 
 ---
 
