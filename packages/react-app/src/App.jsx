@@ -31,6 +31,8 @@ import deployedContracts from "./contracts/hardhat_contracts.json";
 import { getRPCPollTime, Transactor, Web3ModalSetup } from "./helpers";
 import { Home, ExampleUI, Hints, Subgraph } from "./views";
 import { useStaticJsonRPC, useGasPrice } from "./hooks";
+import { WalletChatWidget } from "react-wallet-chat-v0";
+import "react-wallet-chat-v0/dist/index.css";
 
 const { ethers } = require("ethers");
 /*
@@ -400,6 +402,7 @@ function App(props) {
         </Route>
       </Switch>
 
+      <WalletChatWidget />
       <ThemeSwitch />
 
       {/* 🗺 Extra UI like gas price, eth price, faucet, and support: */}

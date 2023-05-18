@@ -6789,9 +6789,9 @@ caniuse-api@^3.0.0:
     lodash.uniq "^4.5.0"
 
 caniuse-lite@^1.0.0, caniuse-lite@^1.0.30000981, caniuse-lite@^1.0.30001109, caniuse-lite@^1.0.30001125, caniuse-lite@^1.0.30001219, caniuse-lite@^1.0.30001243:
-  version "1.0.30001248"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001248.tgz#26ab45e340f155ea5da2920dadb76a533cb8ebce"
-  integrity sha512-NwlQbJkxUFJ8nMErnGtT0QTM2TJ33xgz4KXJSMIrjXIbDVdaYueGyjOrLKRtJC+rTiWfi6j5cnZN1NBiSBJGNw==
+  version "1.0.30001488"
+  resolved "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001488.tgz"
+  integrity sha512-NORIQuuL4xGpIy6iCCQGN4iFjlBXtfKWIenlUuyZJumLRIindLb7wXM+GO8erEhb7vXfcnf4BAg2PrSDN5TNLQ==
 
 capture-exit@^2.0.0:
   version "2.0.0"
@@ -18590,6 +18590,11 @@ react-scripts@4.0.1:
     workbox-webpack-plugin "5.1.4"
   optionalDependencies:
     fsevents "^2.1.3"
+
+react-wallet-chat-v0@^1.4.8:
+  version "1.4.8"
+  resolved "https://registry.yarnpkg.com/react-wallet-chat-v0/-/react-wallet-chat-v0-1.4.8.tgz#abdb6addbf3509d8e1383b949d2d52fbab03895d"
+  integrity sha512-5kiorA5R8T2pwqY/W46sKNJllmGr8pgsVJe6dLA0B57H01Y615sMMCbPooSzdg5OpGWsBfIcn5gDEroduLcwgw==
 
 react@^16.8.6:
   version "16.14.0"

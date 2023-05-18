@@ -27,6 +27,16 @@ function Home({ yourLocalBalance, readContracts }) {
         </span>
       </div>
       <div style={{ margin: 32 }}>
+        <span style={{ marginRight: 8 }}>🗣</span>
+        This Scaffold-Eth build is integrated with <a href="https://www.walletchat.fun/">WalletChat.</a> Just click the{" "}
+        <span
+          className="highlight"
+          style={{ marginLeft: 4, /* backgroundColor: "#f9f9f9", */ padding: 4, borderRadius: 4, fontWeight: "bolder" }}
+        >
+          Black WalletChat logo in the bottom right corner
+        </span>
+      </div>
+      <div style={{ margin: 32 }}>
         <span style={{ marginRight: 8 }}>✏️</span>
         Edit your smart contract{" "}
         <span
