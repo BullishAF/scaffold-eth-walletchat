@@ -1,16 +1,10 @@
-# 🏗 Scaffold-ETH
+# 🗣 Scaffold-ETH-WalletChat
 
-> everything you need to build on Ethereum! 🚀
+> Forkable Ethereum dev stack integrated with [WalletChat](https://walletchat.fun)
+ 
+ 🧪 Quickly experiment with WalletChat:
 
-🧪 Quickly experiment with Solidity using a frontend that adapts to your smart contract:
-
-![image](https://user-images.githubusercontent.com/2653167/124158108-c14ca380-da56-11eb-967e-69cde37ca8eb.png)
-
----
-
-🎖 Scaffold-ETH 2 is the latest version of this developer experience, we recommend you fork: https://github.com/scaffold-eth/se-2
-
----
+![image](/packages/react-app/public/walletchat.png)
 
 # 🏄‍♂️ Quick Start
 
@@ -21,13 +15,13 @@ Prerequisites: [Node (v18 LTS)](https://nodejs.org/en/download/) plus [Yarn (v1.
 > 1️⃣ clone/fork 🏗 scaffold-eth:
 
 ```bash
-git clone https://github.com/scaffold-eth/scaffold-eth.git
+git clone https://github.com/BullishAF/scaffold-eth-walletchat
 ```
 
 > 2️⃣ install and start your 👷‍ Hardhat chain:
 
 ```bash
-cd scaffold-eth
+cd scaffold-eth-walletchat
 yarn install
 yarn chain
 ```
@@ -37,7 +31,7 @@ yarn chain
 🚨 if your contracts are not deployed to localhost, you will need to update the default network in `App.jsx` to match your default network in `hardhat-config.js`.
 
 ```bash
-cd scaffold-eth
+cd scaffold-eth-walletchat
 yarn start
 ```
 
@@ -46,7 +40,7 @@ yarn start
 🚨 if you are not deploying to localhost, you will need to run `yarn generate` first and then fund the deployer account. To view account balances, run `yarn account`. You will aslo need to update `hardhat-config.js` with the correct default network.
 
 ```bash
-cd scaffold-eth
+cd scaffold-eth-walletchat
 yarn deploy
 ```
 
@@ -57,6 +51,8 @@ yarn deploy
 💼 Edit your deployment scripts in `packages/hardhat/deploy`
 
 📱 Open http://localhost:3000 to see the app
+
+🗣 Click on the Black Wallet logo in the bottom right corner to get started with WalletChat
 
 🚨📡 To deploy to a public domain, use `yarn surge`. You will need to have a surge account and have the surge CLI installed. There is also the option to deploy to IPFS using `yarn ipfs` and `yarn s3` to deploy to an AWS bucket 🪣 There are scripts in the `packages/react-app/src/scripts` folder to help with this.`
 
