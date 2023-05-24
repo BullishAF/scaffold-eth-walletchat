@@ -11,11 +11,11 @@ contract YourContract {
 
   string public purpose = "Building Unstoppable Apps!!!";
 
-  constructor() payable {
-    // what should we do on deploy?
-  }
+   constructor() payable {
 
-  function setPurpose(string memory newPurpose) public payable {
+}
+ 
+ function setPurpose(string memory newPurpose) public payable {
       purpose = newPurpose;
       console.log(msg.sender,"set purpose to",purpose);
       emit SetPurpose(msg.sender, purpose);
@@ -24,4 +24,5 @@ contract YourContract {
   // to support receiving ETH by default
   receive() external payable {}
   fallback() external payable {}
+  
 }

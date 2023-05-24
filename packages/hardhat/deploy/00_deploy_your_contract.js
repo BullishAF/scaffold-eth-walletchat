@@ -24,17 +24,13 @@ module.exports = async ({ getNamedAccounts, deployments, getChainId }) => {
     log: true,
     // waitConfirmations: 5,
   });
+    
+   // await YourContract.transferOwnership("0x445abac5658F99775a51bAD7916E0CF1273e2AdB");
 
   // Getting a previously deployed contract
   // const YourContract = await ethers.getContract("YourContract", deployer);
   /*  await YourContract.setPurpose("Hello");
   
-    // To take ownership of yourContract using the ownable library uncomment next line and add the 
-    // address you want to be the owner. 
-    
-    await YourContract.transferOwnership(
-      "ADDRESS_HERE"
-    );
 
     //const YourContract = await ethers.getContractAt('YourContract', "0xaAC799eC2d00C013f1F11c37E654e59B0429DF6A") //<-- if you want to instantiate a version of a contract at a specific address!
   */
@@ -48,12 +44,12 @@ module.exports = async ({ getNamedAccounts, deployments, getChainId }) => {
   })
   */
 
-  /*
+  
   //If you want to send some ETH to a contract on deploy (make your constructor payable!)
-  const yourContract = await deploy("YourContract", [], {
-  value: ethers.utils.parseEther("0.05")
-  });
-  */
+  //const yourContract = await deploy("YourContract", [], {
+  //value: ethers.utils.parseEther("0.05")
+ // });
+  
 
   /*
   //If you want to link a library into your contract:
